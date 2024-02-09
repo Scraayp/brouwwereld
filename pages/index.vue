@@ -1,3 +1,11 @@
+import Navbar from '../components/navbar.vue' import Footer from
+'../components/footer.vue' import Alert from '../components/alert.vue'
+
 <template>
-  <div></div>
+  <head>
+    <title>Brouwwereld</title>
+  </head>
+  <Navbar />
+  <Alert />
+  <Footer />
 </template>
