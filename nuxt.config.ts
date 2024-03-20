@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxt/ui", "@nuxtjs/i18n"],
+  modules: ["@nuxt/ui", "@nuxtjs/i18n", "@nuxt/image"],
   i18n: {
     locales: [
       { code: "en", iso: "en-US", file: "en.js" },
@@ -11,13 +11,16 @@ export default defineNuxtConfig({
     defaultLocale: "nl",
     langDir: "lang/",
     vueI18n: "./i18n.config.ts",
-    globalInjection: true,
   },
   app: {
     head: {
       script: [
         {
           src: "https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js",
+        },
+        {
+          src: "https://kit.fontawesome.com/30c1fe66c2.js",
+          crossorigin: "anonymous",
         },
       ],
       link: [
