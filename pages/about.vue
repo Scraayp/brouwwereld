@@ -1,36 +1,28 @@
 <template>
-  <div class="dark:bg-gray-700">
+  <div class="">
     <Navbar />
-    <section class="py-20">
-      <div class="container mx-auto px-4">
-        <div class="max-w-xl mx-auto">
-          <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-5">
-            About us
-          </h2>
-          <p class="text-gray-700 dark:text-gray-300 mb-5">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-          <p class="text-gray-700 dark:text-gray-300 mb-5">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
-          </p>
-          <p class="text-gray-700 dark:text-gray-300 mb-5">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-          <p class="text-gray-700 dark:text-gray-300 mb-5">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
-          </p>
+    <section>
+      <div class="sm:flex max-w-screen-xl items-center flex flex-row mx-auto">
+        <div class="sm:w-1/2 p-10">
+          <div class="image object-center text-center">
+            <img src="https://i.imgur.com/WbQnbas.png" />
+          </div>
+        </div>
+        <div class="sm:w-1/2 p-5">
+          <div class="text">
+            <span
+              class="text-white font-semibold border-b-2 border-indigo-600 uppercase"
+              >About us</span
+            >
+            <h2 class="my-4 font-bold text-3xl sm:text-4xl">
+              About <span class="text-white">Our Company</span>
+            </h2>
+            <p class="text-white">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid,
+              commodi doloremque, fugiat illum magni minus nisi nulla numquam
+              obcaecati placeat quia, repellat tempore voluptatum.
+            </p>
+          </div>
         </div>
       </div>
     </section>
