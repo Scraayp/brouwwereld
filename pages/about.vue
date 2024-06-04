@@ -3,7 +3,7 @@
     <Navbar />
     <section>
       <div class="sm:flex max-w-screen-xl items-center flex flex-row mx-auto">
-        <div class="sm:w-1/2 p-10">
+        <div class="sm:w-1/2 p-10 hidden md:block">
           <div class="image object-center text-center">
             <img src="https://i.imgur.com/WbQnbas.png" />
           </div>

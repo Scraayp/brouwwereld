@@ -7,9 +7,9 @@
     <h1
       class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-800 md:text-5xl lg:text-6xl dark:text-white text-center mt-6 content-between"
     >
-      Welkom tot
+      Welkom bij
       <mark
-        class="px-2 text-white bg-yellow-600 dark:bg-yellow-500 overflow-hidden rounded-xl"
+        class="px-2 text-white bg-prim dark:bg-prim overflow-hidden rounded-xl"
         >COMPANY.</mark
       >
     </h1>

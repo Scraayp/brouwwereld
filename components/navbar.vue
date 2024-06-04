@@ -35,11 +35,13 @@
           </ul>
         </div>
         <div class="hidden lg:flex lg:items-center gap-x-2">
-          <button
-            class="flex items-center text-black dark:text-white justify-center px-6 py-2.5 font-semibold"
-          >
-            Sign up
-          </button>
+          <NuxtLink href="/register">
+            <button
+              class="flex items-center text-black dark:text-white justify-center px-6 py-2.5 font-semibold"
+            >
+              Sign up
+            </button>
+          </NuxtLink>
           <NuxtLink href="/login">
             <button
               class="flex items-center justify-center rounded-md bg-[#4A3BFF] text-white px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200"
