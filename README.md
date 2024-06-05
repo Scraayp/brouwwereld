@@ -1,75 +1,47 @@
-# Nuxt 3 Minimal Starter
+<h1 align="center">Welcome to FD Examen 2024 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
+  <a href="none" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/Scraayp" target="_blank">
+    <img alt="Twitter: Scraayp" src="https://img.shields.io/twitter/follow/Scraayp.svg?style=social" />
+  </a>
+</p>
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+> Website voor de FD Examen 2024
 
-## Setup
+### 🏠 [Homepage](brouwwereld.vercel.app)
 
-Make sure to install the dependencies:
+### ✨ [Demo](brouwwereld.vercel.app)
 
-```bash
-# npm
-npm install
+## Install
 
-# pnpm
-pnpm install
-
-# yarn
+```sh
 yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+## Usage
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
+```sh
 yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+## Author
 
-Build the application for production:
+👤 **Michal Kolasa**
 
-```bash
-# npm
-npm run build
+- Website: https://michalk.nl
+- Twitter: [@Scraayp](https://twitter.com/Scraayp)
+- Github: [@Scraayp](https://github.com/Scraayp)
 
-# pnpm
-pnpm run build
+## Show your support
 
-# yarn
-yarn build
+Give a ⭐️ if this project helped you!
 
-# bun
-bun run build
-```
+## 📝 License
 
-Locally preview production build:
+Copyright © 2024 [Michal Kolasa](https://github.com/Scraayp).<br />
+This project is [MIT](none) licensed.
 
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+---
