@@ -33,16 +33,19 @@
     </h2>
     <div class="grid grid-cols-3 gap-2 items-center text-center ml-16">
       <news-item
+        :id="news[news.length - 1].id"
         :title="news[news.length - 1].title"
         :description="news[news.length - 1].content"
         :picture="news[news.length - 1].picture"
       />
       <news-item
+        :id="news[news.length - 2].id"
         :title="news[news.length - 2].title"
         :description="news[news.length - 2].content"
         :picture="news[news.length - 2].picture"
       />
       <news-item
+        :id="news[news.length - 3].id"
         :title="news[news.length - 3].title"
         :description="news[news.length - 3].content"
         :picture="news[news.length - 3].picture"

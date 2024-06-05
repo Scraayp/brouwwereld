@@ -26,12 +26,22 @@
             <li
               class="hover:underline hover:underline-offset-4 hover:w-fit transition-all duration-100 ease-linear"
             >
-              <NuxtLink href="/">Home</NuxtLink>
+              <NuxtLink href="/">Hoofdpagina</NuxtLink>
             </li>
             <li
               class="hover:underline hover:underline-offset-4 hover:w-fit transition-all duration-100 ease-linear"
             >
-              <NuxtLink href="/about">About</NuxtLink>
+              <NuxtLink href="/about">Over ons</NuxtLink>
+            </li>
+            <li
+              class="hover:underline hover:underline-offset-4 hover:w-fit transition-all duration-100 ease-linear"
+            >
+              <NuxtLink href="/news">Nieuws</NuxtLink>
+            </li>
+            <li
+              class="hover:underline hover:underline-offset-4 hover:w-fit transition-all duration-100 ease-linear"
+            >
+              <NuxtLink href="/products">Producten</NuxtLink>
             </li>
             <li
               class="hover:underline hover:underline-offset-4 hover:w-fit transition-all duration-100 ease-linear"
@@ -70,8 +80,10 @@
             </button>
           </div>
           <div class="flex flex-col items-center mt-60 min-h-screen space-y-8">
-            <a href="/" class="text-3xl font-semibold">Home</a>
-            <a href="/about" class="text-3xl font-semibold">About</a>
+            <a href="/" class="text-3xl font-semibold">Hoofdpagina</a>
+            <a href="/about" class="text-3xl font-semibold">Over ons</a>
+            <a href="/news" class="text-3xl font-semibold">Nieuws</a>
+            <a href="/products" class="text-3xl font-semibold">Producten</a>
             <a href="/contact" class="text-3xl font-semibold">Contact</a>
             <hr class="my-4 border-t border-gray-300" />
           </div>
