@@ -8,8 +8,14 @@
       <div class="flex items-center justify-between">
         <button @click="toggleMenu" class="focus:outline-none">
           <div class="flex items-center space-x-2">
+            <NuxtImg
+              src="/logo_transparent.png"
+              alt="Mad Gamer"
+              width="75"
+              height="75"
+            />
             <h2 class="text-black dark:text-white font-bold text-2xl">
-              Company
+              Mad Gamer
             </h2>
           </div>
         </button>
@@ -68,26 +74,9 @@
             <a href="/about" class="text-3xl font-semibold">About</a>
             <a href="/contact" class="text-3xl font-semibold">Contact</a>
             <hr class="my-4 border-t border-gray-300" />
-            <a href="/register" class="text-3xl font-semibold">Sign Up</a>
-            <a href="/login" class="text-3xl font-semibold">Login</a>
           </div>
         </div>
-        <div class="hidden lg:flex lg:items-center gap-x-2">
-          <NuxtLink href="/register">
-            <button
-              class="flex items-center text-black dark:text-white justify-center px-6 py-2.5 font-semibold"
-            >
-              Sign up
-            </button>
-          </NuxtLink>
-          <NuxtLink href="/login">
-            <button
-              class="flex items-center justify-center rounded-md bg-[#4A3BFF] text-white px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200"
-            >
-              Login
-            </button>
-          </NuxtLink>
-        </div>
+
         <div class="flex items-center justify-center lg:hidden">
           <button
             @click="toggleMenu"
