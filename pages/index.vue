@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <head>
-      <title>Brouwwereld</title>
+      <title>Brouwwereld</title> 
     </head>
     <Navbar />
     <h1
