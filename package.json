@@ -15,8 +15,9 @@
     "@fortawesome/free-regular-svg-icons": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/vue-fontawesome": "^3.0.6",
-    "@nuxt/ui": "^2.13.0",
+    "@nuxt/ui": "^2.16.0",
     "nuxt": "^3.10.1",
+    "readme-md-generator": "^1.0.0",
     "vue": "^3.4.15",
     "vue-router": "^4.2.5"
   },
