@@ -13,11 +13,11 @@
             class="mx-auto max-w-xl flex flex-col items-center justify-center text-center"
           >
             <h1
-              class="text-4xl md:text-5xl font-bold tracking-tight text-white"
+              class="text-4xl md:text-5xl font-bold tracking-tight text-black dark:text-white"
             >
               Contact opnemen
             </h1>
-            <p class="mt-3 text-lg text-gray-200">
+            <p class="mt-3 text-lg text-gray-700 dark:text-gray-200">
               Heb je een vraag? Of wil je gewoon in contact comen? Vul dan het
               formulier in en we nemen zo snel mogelijk contact met je op.
             </p>
@@ -27,7 +27,7 @@
               <div>
                 <label
                   for="aanhef"
-                  class="block text-sm font-semibold leading-6 text-gray-200"
+                  class="block text-sm font-semibold leading-6 text-gray-600 dark:text-gray-200"
                   >Aanhef</label
                 >
                 <div class="mt-2.5">
@@ -45,7 +45,7 @@
               <div>
                 <label
                   for="naam"
-                  class="block text-sm font-semibold leading-6 text-gray-200"
+                  class="block text-sm font-semibold leading-6 text-gray-600 dark:text-gray-200"
                   >Naam</label
                 >
                 <div class="mt-2.5">
@@ -64,7 +64,7 @@
               <div class="sm:col-span-2">
                 <label
                   for="email"
-                  class="block text-sm font-semibold leading-6 text-gray-200"
+                  class="block text-sm font-semibold leading-6 text-gray-600 dark:text-gray-200"
                   >Email</label
                 >
                 <div class="mt-2.5">
@@ -82,7 +82,7 @@
               <div class="sm:col-span-2">
                 <label
                   for="phone"
-                  class="block text-sm font-semibold leading-6 text-gray-200"
+                  class="block text-sm font-semibold leading-6 text-gray-600 dark:text-gray-200"
                   >Telefoonnummer</label
                 >
                 <div class="mt-2.5">
@@ -100,7 +100,7 @@
               <div class="sm:col-span-2">
                 <label
                   for="message"
-                  class="block text-sm font-semibold leading-6 text-gray-200"
+                  class="block text-sm font-semibold leading-6 text-gray-600 dark:text-gray-200"
                   >Bericht</label
                 >
                 <div class="mt-2.5">

@@ -58,7 +58,7 @@
           <div class="flex items-center justify-end">
             <button
               @click="toggleMenu"
-              class="focus:outline-none text-slate-200 dark:text-white"
+              class="focus:outline-none text-black dark:text-white"
             >
               <svg
                 stroke="currentColor"

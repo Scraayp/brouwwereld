@@ -7,7 +7,9 @@
     Nieuws
   </h1>
 
-  <div class="grid grid-cols-4 gap-2 items-center text-center ml-16">
+  <div
+    class="grid lg:grid-cols-4 gap-2 items-center text-center mx-auto justify-center lg:ml-16"
+  >
     <template v-for="item in news" :key="item.id">
       <newsItem
         :id="item.id"

@@ -7,7 +7,9 @@
     Producten
   </h1>
 
-  <div class="grid grid-cols-4 gap-2 items-center text-center ml-16">
+  <div
+    class="grid lg:grid-cols-4 gap-9 lg:gap-2 items-center text-center lg:ml-16 w-[90%] mx-auto"
+  >
     <template v-for="item in products" :key="item.id">
       <productItem
         :picture="item.picture"

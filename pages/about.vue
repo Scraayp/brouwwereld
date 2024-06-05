@@ -11,13 +11,13 @@
         <div class="sm:w-1/2 p-5">
           <div class="text">
             <span
-              class="text-white font-semibold border-b-2 border-indigo-600 uppercase"
+              class="text-black dark:text-white font-semibold border-b-2 border-indigo-600 uppercase"
               >Over ons</span
             >
             <h2 class="my-4 font-bold text-3xl sm:text-4xl">
-              Over <span class="text-white">Mad Gamer</span>
+              Over <span class="text-black dark:text-white">Mad Gamer</span>
             </h2>
-            <p class="text-white">
+            <p class="text-black dark:text-white">
               Mad Gamer is een spellenspeciaalzaak met vestigingen in
               Bommelskous, Kruishaar en Babyloniënbroek. Met een zeer ruim
               assortiment aan bord- en kaartspellen, en ook hobbyspellen als

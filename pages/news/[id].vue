@@ -1,6 +1,8 @@
 <template>
   <Navbar />
 
+  <h1>Test</h1>
+
   <!-- <div class="container mx-auto">
     <div class="flex justify-center">
       <div class="w-1/2">

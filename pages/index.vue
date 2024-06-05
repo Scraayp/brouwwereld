@@ -28,10 +28,14 @@
         draggable="false"
       />
     </UCarousel>
-    <h2 class="text-white font-bold text-center text-5xl mt-5 mb-5">
+    <h2
+      class="text-black dark:text-white font-bold text-center text-5xl mt-5 mb-5"
+    >
       Laatste Nieuws
     </h2>
-    <div class="grid grid-cols-3 gap-2 items-center text-center ml-16">
+    <div
+      class="grid grid-cols-3 gap-2 items-center text-center mx-2 md:mx-0 lg:ml-16"
+    >
       <news-item
         :id="news[news.length - 1].id"
         :title="news[news.length - 1].title"

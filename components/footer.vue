@@ -6,7 +6,7 @@
         © 2024
         <a
           href="mailto:hello@michalk.nl"
-          class="hover:text-white target:text-white"
+          class="hover:text-prim dark:hover:text-white target:text-white"
           >Mad Gamer</a
         >
         All rights reserved.
