@@ -15,69 +15,52 @@
             <h1
               class="text-4xl md:text-5xl font-bold tracking-tight text-white"
             >
-              Let's Talk
+              Contact opnemen
             </h1>
             <p class="mt-3 text-lg text-gray-200">
-              Feature request? Suggestion? or maybe you'd like to be our critic!
-              Here's a form just for that.
+              Heb je een vraag? Of wil je gewoon in contact comen? Vul dan het
+              formulier in en we nemen zo snel mogelijk contact met je op.
             </p>
           </div>
           <form class="mx-auto mt-16 max-w-xl sm:mt-20">
             <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
               <div>
                 <label
-                  for="first-name"
+                  for="aanhef"
                   class="block text-sm font-semibold leading-6 text-gray-200"
-                  >First name</label
+                  >Aanhef</label
                 >
                 <div class="mt-2.5">
                   <input
-                    required=""
+                    required
                     type="text"
-                    name="first-name"
-                    id="first-name"
+                    name="aanhef"
+                    id="aanhef"
                     autocomplete="given-name"
-                    placeholder="Your First Name"
-                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-200 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6"
+                    placeholder="Aanhef"
+                    class="block w-full rounded-md border-0 px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
               <div>
                 <label
-                  for="last-name"
+                  for="naam"
                   class="block text-sm font-semibold leading-6 text-gray-200"
-                  >Last name</label
+                  >Naam</label
                 >
                 <div class="mt-2.5">
                   <input
-                    required=""
+                    required
                     type="text"
-                    name="last-name"
-                    id="last-name"
+                    name="naam"
+                    id="naam"
                     autocomplete="family-name"
-                    placeholder="Your Last Name"
-                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-200 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6"
+                    placeholder="Naam"
+                    class="block w-full rounded-md border-0 px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
-              <div class="sm:col-span-2">
-                <label
-                  for="company"
-                  class="block text-sm font-semibold leading-6 text-gray-200"
-                  >Company</label
-                >
-                <div class="mt-2.5">
-                  <input
-                    required=""
-                    type="text"
-                    name="company"
-                    id="company"
-                    autocomplete="organization"
-                    placeholder="Your Company Name"
-                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-200 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6"
-                  />
-                </div>
-              </div>
+
               <div class="sm:col-span-2">
                 <label
                   for="email"
@@ -86,13 +69,13 @@
                 >
                 <div class="mt-2.5">
                   <input
-                    required=""
+                    required
                     type="email"
                     name="email"
                     id="email"
                     autocomplete="email"
-                    placeholder="Your Email Address"
-                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-200 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6"
+                    placeholder="Jouw email"
+                    class="block w-full rounded-md border-0 px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -100,17 +83,17 @@
                 <label
                   for="phone"
                   class="block text-sm font-semibold leading-6 text-gray-200"
-                  >Phone number</label
+                  >Telefoonnummer</label
                 >
                 <div class="mt-2.5">
                   <input
-                    required=""
+                    required
                     type="tel"
                     name="phone"
                     id="phone"
                     autocomplete="tel"
-                    placeholder="Your Phone Number"
-                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-200 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6"
+                    placeholder="Telefoonnummer"
+                    class="block w-full rounded-md border-0 px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -118,18 +101,24 @@
                 <label
                   for="message"
                   class="block text-sm font-semibold leading-6 text-gray-200"
-                  >Message</label
+                  >Bericht</label
                 >
                 <div class="mt-2.5">
                   <textarea
                     name="message"
                     id="message"
                     rows="4"
-                    placeholder="Share your thoughts..."
-                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-200 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6"
+                    placeholder="Waarom neem je contact met ons?"
+                    class="block w-full rounded-md border-0 px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6"
                   ></textarea>
                 </div>
               </div>
+              <UCheckbox
+                label="Nieuwsbrief"
+                help="Wil je onze nieuwsbrief ontvangen?"
+                required
+                color="prim"
+              />
             </div>
             <div class="mt-10">
               <button
