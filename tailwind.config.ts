@@ -6,8 +6,8 @@ export default <Partial<Config>>{
   theme: {
     extend: {
       colors: {
-        prim: "#3f4dd1",
-        secondary: "#db4e35",
+        prim: "#ff5722",
+        secondary: "#2d4059",
       },
     },
   },
