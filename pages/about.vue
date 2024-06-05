@@ -12,15 +12,24 @@
           <div class="text">
             <span
               class="text-white font-semibold border-b-2 border-indigo-600 uppercase"
-              >About us</span
+              >Over ons</span
             >
             <h2 class="my-4 font-bold text-3xl sm:text-4xl">
-              About <span class="text-white">Our Company</span>
+              Over <span class="text-white">Mad Gamer</span>
             </h2>
             <p class="text-white">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid,
-              commodi doloremque, fugiat illum magni minus nisi nulla numquam
-              obcaecati placeat quia, repellat tempore voluptatum.
+              Mad Gamer is een spellenspeciaalzaak met vestigingen in
+              Bommelskous, Kruishaar en Babyloniënbroek. Met een zeer ruim
+              assortiment aan bord- en kaartspellen, en ook hobbyspellen als
+              Warhammer en Magic the Gathering. Daarnaast hebben we voor al deze
+              spellen ook regelmatig activiteiten en toernooien.<br /><br />
+              De laatste jaren hebben wij naast spellen ons assortiment ook
+              uitgebreid met het betere kinderspeelgoed, vooral voor jonge
+              leeftijden. Merken als Haba, Djeco en Plantoys zijn daarbij de
+              toppers.<br /><br />Onze webshop is gebaseerd in de winkel in
+              Bommelskous, en wat u ziet in de shop als voorradig, is dan ook op
+              voorraad in Arnhem. Voor vragen over de voorraad van de andere
+              winkels kunt u altijd bellen of mailen.
             </p>
           </div>
         </div>
